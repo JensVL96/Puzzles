@@ -94,7 +94,7 @@ def filter_words(words, include_rules=None, exclude_rules=None, forbidden_letter
 # Exclude "e" at 2nd position = !e2
 # Exclude all words containing the letter "z" = !z
 # rule_str = "!s1 !s3 !r3 !s4 s5 !r1 !o2 !c3 !k *c"
-rule_str = "!g1 a2 !n3 !o3 !a5"
+rule_str = "!d4 !a4"
 
 include, exclude, forbidden, must_have = parse_rules_from_string(rule_str)
 filtered = filter_words(
